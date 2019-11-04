@@ -1,0 +1,40 @@
+body {
+  font-size: 24px;
+}
+
+#txtNumber {
+  width: 400px;
+  padding: 10px 0;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
+
+/*Remove Up and Down Arrow button in textbox*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+#btnValidate {
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+.txtTitle {
+  font-size: 24px;
+  text-align: center;
+}
